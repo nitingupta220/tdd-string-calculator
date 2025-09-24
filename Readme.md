@@ -143,13 +143,4 @@ The current implementation (Case 4) includes robust error handling:
 - **Negative Numbers**: Throws an error listing all negative numbers found
 - **Invalid Input**: Gracefully handles non-numeric strings (converts to NaN, which becomes 0 in addition)
 
-## Development Notes
 
-This implementation follows TDD principles:
-
-1. Start with the simplest case
-2. Add one feature at a time
-3. Ensure all previous functionality continues to work
-4. Add appropriate error handling
-
-Each case builds upon the previous one, demonstrating incremental development and refactoring techniques.
